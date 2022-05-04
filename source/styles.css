@@ -1,3 +1,24 @@
-body {
-  background: bisque;
+:root {
+  --branding-color: #e8f4f0;
+  --heading-font-family: IBM Plex Serif;
+  --default-font-family: Roboto;
+  --secondary-color: #3f9c87;
+}
+
+.hero {
+  padding-top: 112px;
+  background: var(--branding-color);
+  text-align: center;
+  padding-bottom: 218px;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 50px;
+  font-weight: bold;
+}
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
 }
