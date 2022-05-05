@@ -50,3 +50,59 @@ h1 {
 .contact-button {
   background-color: var(--secondary-color);
 }
+h2 {
+  color: #227361;
+  font-family: var(--heading-font-family);
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 143px;
+}
+.photo {
+  width: 463px;
+  margin-right: 30px;
+  margin-top: 143px;
+}
+.about-me {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: var(--default-font-family);
+  color: #152320;
+  opacity: 0.7;
+  font-weight: 400;
+  width: 463px;
+  margin-right: 386px;
+  margin-right: 30px;
+}
+footer a {
+  color: var(--secondary-color);
+}
+.social {
+  padding-top: 129px;
+  padding-bottom: 128px;
+  background: var(--branding-color);
+  border-radius: 10px;
+}
+.social a:hover {
+  color: white;
+}
+.social button {
+  background: #ffffff;
+  border-radius: 58px;
+  display: block;
+  margin: 0 auto;
+  width: 374px;
+  height: 85px;
+  padding: 23px 80px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+}
+button i {
+  color: var(--secondary-color);
+}
+.social button:hover {
+  color: grey;
+}
+.links {
+  font-size: 35px;
+}
