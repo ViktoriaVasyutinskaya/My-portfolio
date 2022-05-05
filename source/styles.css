@@ -112,9 +112,23 @@ button i {
   height: 461px;
 }
 .description {
-  text-align: center;
+  font-size: 30px;
+  font-family: var(--default-font-family);
+  color: #227361;
+  font-weight: 700;
 }
 .my-work {
   display: block;
   margin: 0 auto;
+}
+.contacts a {
+  color: var(--secondary-color);
+  font-size: 50px;
+  margin-bottom: 150px;
+}
+.bottom {
+  background-color: var(--branding-color);
+  padding-top: 49px;
+  padding-bottom: 389px;
+  color: #152320;
 }
