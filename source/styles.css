@@ -50,7 +50,8 @@ h1 {
 .contact-button {
   background-color: var(--secondary-color);
 }
-h2 {
+h2,
+h3 {
   color: #227361;
   font-family: var(--heading-font-family);
   font-size: 50px;
@@ -105,4 +106,15 @@ button i {
 }
 .links {
   font-size: 35px;
+}
+.my-projects {
+  width: 461px;
+  height: 461px;
+}
+.description {
+  text-align: center;
+}
+.my-work {
+  display: block;
+  margin: 0 auto;
 }
